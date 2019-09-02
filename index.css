@@ -1,7 +1,7 @@
 .image1 {
-    height: auto;
-    width: auto;
-    text-align: center;
+    height: 65px;
+    width: 250px;
+    display: inline-block;
 }
 .navbar {
     list-style: none;
@@ -11,6 +11,31 @@
     align-items: center;
     display: flex;
     justify-content: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.banner {
+    background-image: url("Images/coverphoto.jpeg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    text-align: center;
+    padding-top: 15%;
+}
+.title1 {
+    font-family: sans-serif;
+    font-size: 30px;
+    display: block;
+    color:#1F497D;
+    margin-top: 0px;
+}
+.maintitle {
+    background-color: rgba(196, 196, 196, 0.3);
+}
+body {
+    margin: 0px;
+    text-align: center;
 }
 a {
      padding-left: 0px;
