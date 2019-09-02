@@ -7,12 +7,13 @@
     list-style: none;
     font-family: sans-serif;
     font-size: 13px;
-    padding: 0px;
+    color: #1F497D;
+    padding: 5px;
     align-items: center;
     display: flex;
     justify-content: left;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 0px;
+    background-color: #C4D1DA;
 }
 .banner {
     background-image: url("Images/coverphoto.jpeg");
@@ -21,7 +22,6 @@
     background-size: cover;
     min-height: 700px;
     text-align: center;
-    padding-top: 15%;
 }
 .title1 {
     font-family: sans-serif;
@@ -32,6 +32,9 @@
 }
 .maintitle {
     background-color: rgba(196, 196, 196, 0.3);
+    size: cover;
+    min-height: 700px;
+    padding-top: 15%;
 }
 body {
     margin: 0px;
@@ -43,12 +46,12 @@ a {
      text-align: center;
  }
 a:link {
-    color: black;
+    color: #1F497D;
     text-decoration: none;
 }
 a:visited{
     text-decoration: none;
-    color: black;
+    color: #1F497D;
 }
 a:hover{
     text-decoration: underline;
