@@ -1,6 +1,7 @@
 .image1 {
-    height: 700px;
-    width: 100%;
+    height: auto;
+    width: auto;
+    text-align: center;
 }
 .navbar {
     list-style: none;
